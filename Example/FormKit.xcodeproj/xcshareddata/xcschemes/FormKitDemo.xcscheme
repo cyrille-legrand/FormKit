@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "FormKit_Example.app"
-               BlueprintName = "FormKit_Example"
+               BuildableName = "FormKitDemo.app"
+               BlueprintName = "FormKitDemo"
                ReferencedContainer = "container:FormKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "FormKit_Tests.xctest"
-               BlueprintName = "FormKit_Tests"
+               BuildableName = "FormKitTests.xctest"
+               BlueprintName = "FormKitTests"
                ReferencedContainer = "container:FormKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,8 +48,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "FormKit_Tests.xctest"
-               BlueprintName = "FormKit_Tests"
+               BuildableName = "FormKitTests.xctest"
+               BlueprintName = "FormKitTests"
                ReferencedContainer = "container:FormKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -58,8 +58,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "FormKit_Example.app"
-            BlueprintName = "FormKit_Example"
+            BuildableName = "FormKitDemo.app"
+            BlueprintName = "FormKitDemo"
             ReferencedContainer = "container:FormKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,8 +82,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "FormKit_Example.app"
-            BlueprintName = "FormKit_Example"
+            BuildableName = "FormKitDemo.app"
+            BlueprintName = "FormKitDemo"
             ReferencedContainer = "container:FormKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -101,8 +101,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "FormKit_Example.app"
-            BlueprintName = "FormKit_Example"
+            BuildableName = "FormKitDemo.app"
+            BlueprintName = "FormKitDemo"
             ReferencedContainer = "container:FormKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

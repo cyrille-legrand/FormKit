@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_FormKit_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_FormKit_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_FormKitDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FormKitDemoVersionString[];
 

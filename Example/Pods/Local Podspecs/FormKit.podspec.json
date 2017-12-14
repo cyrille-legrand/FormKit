@@ -1,22 +1,24 @@
 {
   "name": "FormKit",
   "version": "0.1.0",
-  "summary": "A short description of FormKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Cyrille Legrand/FormKit",
+  "summary": "A pure Swift library for making and handling forms.",
+  "description": "FormKit is my attempt at a pure-Swift library to handling forms. After ten years of developing on iOS, I still haven't found a universal way of setting up and handling forms, so here's my current universal-ish solution.",
+  "homepage": "https://github.com/cyrille-legrand/FormKit",
   "license": {
-    "type": "MIT",
+    "type": "GPLv3",
     "file": "LICENSE"
   },
   "authors": {
     "Cyrille Legrand": "c.legrand@useradgents.com"
   },
   "source": {
-    "git": "https://github.com/Cyrille Legrand/FormKit.git",
+    "git": "https://github.com/cyrille-legrand/FormKit",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/cyrillusmaximus",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
+  "frameworks": "UIKit",
   "source_files": "FormKit/Classes/**/*"
 }

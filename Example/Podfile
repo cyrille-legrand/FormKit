@@ -1,14 +1,15 @@
+platform :ios, '9.0'
 use_frameworks!
 
-target 'FormKit_Example' do
+target 'FormKitDemo' do
   pod 'FormKit', :path => '../'
 
-  target 'FormKit_Tests' do
+  target 'FormKitTests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2.0'
-  pod 'Nimble', '~> 7.0.2'
-  pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  pod 'Nimble-Snapshots' , '~> 6.3.0'
+    pod 'Quick', '~> 1.2.0', :inhibit_warnings => true
+    pod 'Nimble', '~> 7.0.2', :inhibit_warnings => true
+    pod 'FBSnapshotTestCase', '~> 2.1.4', :inhibit_warnings => true
+    pod 'Nimble-Snapshots', '~> 6.3.0', :inhibit_warnings => true
   end
 end

@@ -1,0 +1,6 @@
+framework module Pods_FormKitDemo {
+  umbrella header "Pods-FormKitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

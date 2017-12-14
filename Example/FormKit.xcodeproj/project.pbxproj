@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		482990D08AC986FCF69B7079 /* Pods_FormKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D051E3ADDAC88A0F6A3F1D /* Pods_FormKit_Example.framework */; };
-		4D8A3CF568270A0C543A43DC /* Pods_FormKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E79DE214D5E6F840E897EC7 /* Pods_FormKit_Tests.framework */; };
+		482990D08AC986FCF69B7079 /* Pods_FormKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D051E3ADDAC88A0F6A3F1D /* Pods_FormKitDemo.framework */; };
+		5903D5E4FFFC8E2218F7A8BB /* Pods_FormKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C20018D64806FFB46D2785 /* Pods_FormKitDemo.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		D5004C032B19BAC38BBC7142 /* Pods_FormKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FDADB298E00A47C63D615C /* Pods_FormKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,23 +29,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		31361D6E8DEDD8B380482596 /* FormKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FormKit.podspec; path = ../FormKit.podspec; sourceTree = "<group>"; };
+		092E45ECF161C1DE7C574866 /* Pods-FormKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormKitDemo/Pods-FormKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		14FDADB298E00A47C63D615C /* Pods_FormKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AAAC212FD7F55AAB215A9A /* Pods-FormKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormKitDemo/Pods-FormKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		31361D6E8DEDD8B380482596 /* FormKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FormKit.podspec; path = ../FormKit.podspec; sourceTree = "<group>"; };
+		35268D961E01E1CE5A4BCAD1 /* Pods-FormKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormKitTests/Pods-FormKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3565105BC2F5B96B8AD7DAE1 /* Pods-FormKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormKitTests/Pods-FormKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		481BE3239A93FBD2A60F6C3D /* Pods-FormKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormKit_Tests/Pods-FormKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		50D051E3ADDAC88A0F6A3F1D /* Pods_FormKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		586A2E798F4471F6B50DE64A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* FormKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D051E3ADDAC88A0F6A3F1D /* Pods_FormKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		586A2E798F4471F6B50DE64A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* FormKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* FormKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* FormKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62F2227FB399AF6275B8B89A /* Pods-FormKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FormKit_Example/Pods-FormKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6F9744F2F9A4F1813A4560C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6F9744F2F9A4F1813A4560C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8E79DE214D5E6F840E897EC7 /* Pods_FormKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C20018D64806FFB46D2785 /* Pods_FormKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5DD30FC9DD88810A518E1E2 /* Pods-FormKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormKit_Tests/Pods-FormKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC82A5E5F1C2E6E4041160A1 /* Pods-FormKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FormKit_Example/Pods-FormKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				482990D08AC986FCF69B7079 /* Pods_FormKit_Example.framework in Frameworks */,
+				482990D08AC986FCF69B7079 /* Pods_FormKitDemo.framework in Frameworks */,
+				5903D5E4FFFC8E2218F7A8BB /* Pods_FormKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8A3CF568270A0C543A43DC /* Pods_FormKit_Tests.framework in Frameworks */,
+				D5004C032B19BAC38BBC7142 /* Pods_FormKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +92,8 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* FormKit_Example.app */,
-				607FACE51AFB9204008FA782 /* FormKit_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* FormKitDemo.app */,
+				607FACE51AFB9204008FA782 /* FormKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,8 +150,10 @@
 		7706DDD2637AB231F8E20FFF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				50D051E3ADDAC88A0F6A3F1D /* Pods_FormKit_Example.framework */,
+				50D051E3ADDAC88A0F6A3F1D /* Pods_FormKitDemo.framework */,
 				8E79DE214D5E6F840E897EC7 /* Pods_FormKit_Tests.framework */,
+				92C20018D64806FFB46D2785 /* Pods_FormKitDemo.framework */,
+				14FDADB298E00A47C63D615C /* Pods_FormKitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +165,10 @@
 				62F2227FB399AF6275B8B89A /* Pods-FormKit_Example.release.xcconfig */,
 				D5DD30FC9DD88810A518E1E2 /* Pods-FormKit_Tests.debug.xcconfig */,
 				481BE3239A93FBD2A60F6C3D /* Pods-FormKit_Tests.release.xcconfig */,
+				22AAAC212FD7F55AAB215A9A /* Pods-FormKitDemo.debug.xcconfig */,
+				092E45ECF161C1DE7C574866 /* Pods-FormKitDemo.release.xcconfig */,
+				35268D961E01E1CE5A4BCAD1 /* Pods-FormKitTests.debug.xcconfig */,
+				3565105BC2F5B96B8AD7DAE1 /* Pods-FormKitTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,9 +176,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* FormKit_Example */ = {
+		607FACCF1AFB9204008FA782 /* FormKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FormKit_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FormKitDemo" */;
 			buildPhases = (
 				27EC85A305B121F31F966BCD /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -177,14 +191,14 @@
 			);
 			dependencies = (
 			);
-			name = FormKit_Example;
+			name = FormKitDemo;
 			productName = FormKit;
-			productReference = 607FACD01AFB9204008FA782 /* FormKit_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* FormKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* FormKit_Tests */ = {
+		607FACE41AFB9204008FA782 /* FormKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FormKit_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FormKitTests" */;
 			buildPhases = (
 				D4BE49C0209349A5DD3465B0 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -198,9 +212,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = FormKit_Tests;
+			name = FormKitTests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* FormKit_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* FormKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,10 +229,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 833S5RHAAG;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 833S5RHAAG;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -237,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* FormKit_Example */,
-				607FACE41AFB9204008FA782 /* FormKit_Tests */,
+				607FACCF1AFB9204008FA782 /* FormKitDemo */,
+				607FACE41AFB9204008FA782 /* FormKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +291,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FormKit_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FormKitDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -294,7 +310,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormKit_Tests/Pods-FormKit_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormKitTests/Pods-FormKitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		45A14FEAE9CB4888DA0984C4 /* [CP] Embed Pods Frameworks */ = {
@@ -303,7 +319,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FormKit_Example/Pods-FormKit_Example-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-FormKitDemo/Pods-FormKitDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FormKit/FormKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -312,7 +328,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormKit_Example/Pods-FormKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormKitDemo/Pods-FormKitDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6D6B570A7D9C80A266A10C8F /* [CP] Embed Pods Frameworks */ = {
@@ -321,7 +337,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FormKit_Tests/Pods-FormKit_Tests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-FormKitTests/Pods-FormKitTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
@@ -336,7 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormKit_Tests/Pods-FormKit_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormKitTests/Pods-FormKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6E773074E5CE9EFE58C9AB10 /* [CP] Copy Pods Resources */ = {
@@ -351,7 +367,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormKit_Example/Pods-FormKit_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FormKitDemo/Pods-FormKitDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D4BE49C0209349A5DD3465B0 /* [CP] Check Pods Manifest.lock */ = {
@@ -365,7 +381,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FormKit_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FormKitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -397,7 +413,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* FormKit_Example */;
+			target = 607FACCF1AFB9204008FA782 /* FormKitDemo */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -513,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -523,13 +539,14 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC82A5E5F1C2E6E4041160A1 /* Pods-FormKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 22AAAC212FD7F55AAB215A9A /* Pods-FormKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 833S5RHAAG;
 				INFOPLIST_FILE = FormKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mmweb.FormKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -538,13 +555,14 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62F2227FB399AF6275B8B89A /* Pods-FormKit_Example.release.xcconfig */;
+			baseConfigurationReference = 092E45ECF161C1DE7C574866 /* Pods-FormKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 833S5RHAAG;
 				INFOPLIST_FILE = FormKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.mmweb.FormKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -553,8 +571,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5DD30FC9DD88810A518E1E2 /* Pods-FormKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 35268D961E01E1CE5A4BCAD1 /* Pods-FormKitTests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 833S5RHAAG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -569,13 +588,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormKitDemo.app/FormKitDemo";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 481BE3239A93FBD2A60F6C3D /* Pods-FormKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 3565105BC2F5B96B8AD7DAE1 /* Pods-FormKitTests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 833S5RHAAG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -586,6 +607,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormKitDemo.app/FormKitDemo";
 			};
 			name = Release;
 		};
@@ -601,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FormKit_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FormKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -610,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FormKit_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "FormKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
