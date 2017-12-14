@@ -2,33 +2,24 @@
 # Be sure to run `pod lib lint FormKit.podspec' to ensure this is a
 # valid spec before submitting.
 #
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'FormKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FormKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'A pure Swift library for making and handling forms.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+FormKit is my attempt at a pure-Swift library to handling forms. After ten years of developing on iOS, I still haven't found a universal way of setting up and handling forms, so here's my current universal-ish solution.
                        DESC
 
-  s.homepage         = 'https://github.com/Cyrille Legrand/FormKit'
+  s.homepage         = 'https://github.com/cyrille-legrand/FormKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'GPLv3', :file => 'LICENSE' }
   s.author           = { 'Cyrille Legrand' => 'c.legrand@useradgents.com' }
-  s.source           = { :git => 'https://github.com/Cyrille Legrand/FormKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/cyrille-legrand/FormKit', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/cyrillusmaximus'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
+  s.frameworks = 'UIKit'
 
   s.source_files = 'FormKit/Classes/**/*'
   
@@ -36,7 +27,4 @@ TODO: Add long description of the pod here.
   #   'FormKit' => ['FormKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
